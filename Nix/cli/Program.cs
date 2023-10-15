@@ -40,7 +40,7 @@ namespace NixPowerFx
             Console.InputEncoding = System.Text.Encoding.Unicode;
             Console.OutputEncoding = System.Text.Encoding.Unicode;
 
-            var version = typeof(RecalcEngine).Assembly.GetName().Version.ToString();
+            var version = typeof(CLI).Assembly.GetName().Version.ToString();
             Console.WriteLine($"Microsoft Power Fx, Version {version}");
             Console.WriteLine("Enter Excel formulas.  Use \"Help()\" for details.");
 

@@ -5,6 +5,8 @@
     <TargetFramework>net6.0</TargetFramework>
     <IsPackable>false</IsPackable>
     <Configurations>Debug;Release</Configurations>
+    <Version>$(VersionString)</Version>
+    <Version Condition="'$(VersionString)'==''">0.0.0</Version>
   </PropertyGroup>
 
   <Import Project="..\Build.props" />
