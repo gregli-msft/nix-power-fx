@@ -12,6 +12,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.PowerFx.Core" Version="$(PowerFxVersion)" NoWarn="NU1605"/>
     <PackageReference Include="Microsoft.PowerFx.Interpreter" Version="$(PowerFxVersion)" NoWarn="NU1605"/>
+    <PackageReference Include="Microsoft.PowerFx.Json" Version="$(PowerFxVersion)" NoWarn="NU1605"/>
     <PackageReference Include="Microsoft.PowerFx.Repl" Version="$(PowerFxVersion)" NoWarn="NU1605"/>
   </ItemGroup>
 
