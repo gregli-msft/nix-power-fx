@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <Configurations>Debug;Release</Configurations>
+  </PropertyGroup>
+
+  <Import Project="..\Build.props" />
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.PowerFx.Core" Version="$(PowerFxVersion)" NoWarn="NU1605"/>
+    <PackageReference Include="Microsoft.PowerFx.Interpreter" Version="$(PowerFxVersion)" NoWarn="NU1605"/>
+    <PackageReference Include="Microsoft.PowerFx.Json" Version="$(PowerFxVersion)" NoWarn="NU1605"/>
+    <PackageReference Include="Microsoft.PowerFx.Repl" Version="$(PowerFxVersion)" NoWarn="NU1605"/>
+  </ItemGroup>
+
+</Project>
