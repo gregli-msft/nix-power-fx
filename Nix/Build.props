@@ -3,7 +3,7 @@
 
   <PropertyGroup>
     <!--https://github.com/microsoft/Power-Fx/commit/114037783f91787cfd0dc01559aadba6c8723a69-->
-    <PowerFxVersion>1.2.0-build.20231013-1002</PowerFxVersion>
+    <PowerFxVersion>1.1.0</PowerFxVersion>
   </PropertyGroup>
   
 </Project>
