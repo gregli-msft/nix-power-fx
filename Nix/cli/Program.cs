@@ -37,8 +37,8 @@ namespace NixPowerFx
         {
             var enabled = new StringBuilder();
 
-            Console.InputEncoding = System.Text.Encoding.Unicode;
-            Console.OutputEncoding = System.Text.Encoding.Unicode;
+//            Console.InputEncoding = System.Text.Encoding.Unicode;
+//            Console.OutputEncoding = System.Text.Encoding.Unicode;
 
             var version = typeof(CLI).Assembly.GetName().Version.ToString();
             Console.WriteLine($"Microsoft Power Fx, Version {version}");
